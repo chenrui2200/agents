@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="8Qo2597eUU986CpPTHiY">
-    <mxGraphModel dx="2593" dy="1384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="2377" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,63 +14,63 @@
           <mxGeometry height="200" width="1635" x="261" y="1266" as="geometry" />
         </mxCell>
         <mxCell id="suS-wiGyDA5d7vcld8C9-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="应用服务层 &#xa;（微服务架构）" vertex="1">
-          <mxGeometry height="592" width="1835" x="306" y="624" as="geometry" />
+          <mxGeometry height="592" width="1835" x="323" y="624" as="geometry" />
         </mxCell>
         <mxCell id="suS-wiGyDA5d7vcld8C9-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="用户界面层 &#xa;（Web + 移动端）" vertex="1">
           <mxGeometry height="304" width="1269" x="501" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="天津港口机电局AI业务系统&#xa;统一入口&#xa;角色：投标员/合约员/技术员/安全员/结算员" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffff88;strokeColor=#36393d;" value="天津港口机电局AI业务系统&#xa;统一入口&#xa;角色：投标员/合约员/技术员/安全员/结算员" vertex="1">
           <mxGeometry height="126" width="260" x="881" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="可视化仪表盘&#xa;甘特图/台账/风险预警" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffff88;strokeColor=#36393d;" value="可视化仪表盘&#xa;甘特图/台账/风险预警" vertex="1">
           <mxGeometry height="78" width="221" x="900" y="471" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="1. 投标业务服务&#xa;• 标书识别（OCR+NER+RAG）&#xa;• 施工组织设计生成（CoT+领域LLM）&#xa;• 人员证件匹配（CSP+图查询）&#xa;• 报价风险预测（时间序列）" vertex="1">
-          <mxGeometry height="222" width="260" x="1053" y="649" as="geometry" />
+        <mxCell id="suS-wiGyDA5d7vcld8C9-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="1. 投标业务服务&#xa;• 标书识别（OCR+NER+RAG）&#xa;• 施工组织设计生成（CoT+领域LLM）&#xa;• 人员证件匹配（外部接口查询）&#xa;• 报价风险预测（时间序列）" vertex="1">
+          <mxGeometry height="181" width="260" x="1060" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="2. 招投标管理服务&#xa;• 招标文件规范审查（Sentence-BERT）&#xa;• 供应商画像+围标检测（Neo4j+Louvain+Isolation Forest）" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="2. 招投标管理服务&#xa;• 招标文件规范审查（Sentence-BERT）&#xa;• 供应商画像+围标检测（Neo4j+Louvain+Isolation Forest）" vertex="1">
           <mxGeometry height="174" width="260" x="411" y="993" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="3. 合同管理服务&#xa;• 合同比对（Diff-Match-Patch）&#xa;• 风险条款提取（BiLSTM-CRF）&#xa;• 动态台账（ETL联邦查询）" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="3. 合同管理服务&#xa;• 合同比对（Diff-Match-Patch）&#xa;• 风险条款提取（BiLSTM-CRF）&#xa;• 动态台账（ETL联邦查询）" vertex="1">
           <mxGeometry height="174" width="260" x="1378" y="673" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="4. 生产管理服务&#xa;• 规范问答（Milvus RAG）&#xa;• 图纸审计（CV+CNN）&#xa;• 危大方案计算（物理引擎+FSM）&#xa;• 机械调度（遗传算法+离散事件模拟）&#xa;• 日志摘要（多模态LLM）" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="4. 生产管理服务&#xa;• 规范问答（Milvus RAG）&#xa;• 图纸审计（CV）&#xa;• 危大方案计算（物理引擎+FSM）&#xa;• 机械调度（遗传算法+离散事件模拟）&#xa;• 日志摘要（多模态LLM）" vertex="1">
           <mxGeometry height="222" width="260" x="830" y="969" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="5. 分包与结算服务&#xa;• 发票去重（哈希+近似搜索）&#xa;• 定额对标（LLM语义映射）&#xa;• 产值自动核算（数据驱动计价）" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="5. 分包与结算服务&#xa;• 发票去重（哈希+近似搜索）&#xa;• 定额对标（LLM语义映射）&#xa;• 产值自动核算（数据驱动计价）" vertex="1">
           <mxGeometry height="198" width="260" x="1684" y="981" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="大模型中心&#xa;• GPT-4o/Claude类 + 领域微调&#xa;• CoT + RAG Pipeline" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#f9f7ed;strokeColor=#36393d;" value="大模型中心&#xa;• CoT + RAG Pipeline" vertex="1">
           <mxGeometry height="126" width="260" x="728" y="1303" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="计算机视觉引擎&#xa;• OCR + 图纸漏碰错检测" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#f9f7ed;strokeColor=#36393d;" value="计算机视觉引擎&#xa;• OCR + 图纸漏碰错检测" vertex="1">
           <mxGeometry height="78" width="233" x="344" y="1327" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="机器学习引擎&#xa;• 时间序列预测&#xa;• 离群点检测&#xa;• 优化算法库（A*/遗传/多约束）" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#f9f7ed;strokeColor=#36393d;" value="机器学习引擎&#xa;• 时间序列预测&#xa;• 离群点检测&#xa;• 优化算法库（A*/遗传/多约束）" vertex="1">
           <mxGeometry height="150" width="260" x="1582" y="1291" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="工作流引擎&#xa;• 业务闭环（FSM + 审批链）&#xa;• 预警推送" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#f9f7ed;strokeColor=#36393d;" value="工作流引擎&#xa;• 业务闭环（FSM + 审批链）&#xa;• 预警推送" vertex="1">
           <mxGeometry height="126" width="260" x="1238" y="1303" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-18" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" value="Milvus向量数据库&#xa;国家标准+天津港工艺+历史标书" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-18" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Milvus向量数据库&#xa;国家标准+天津港工艺+历史标书" vertex="1">
           <mxGeometry height="134" width="215" x="137" y="1563" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-19" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" value="Neo4j图数据库&#xa;• 供应商关联&#xa;• 人员证件关系&#xa;• 围标社群检测" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-19" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Neo4j图数据库&#xa;• 供应商关联&#xa;• 人员证件关系&#xa;• 围标社群检测" vertex="1">
           <mxGeometry height="148" width="124" x="402" y="1556" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-20" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" value="关系数据库 + 数据仓库&#xa;• HR系统&#xa;• 财务发票&#xa;• 项目进度&#xa;• 合同台账" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-20" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="关系数据库 + 数据仓库&#xa;• HR系统&#xa;• 财务发票&#xa;• 项目进度&#xa;• 合同台账" vertex="1">
           <mxGeometry height="179" width="177" x="1351" y="1541" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-21" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" value="外部价格库&#xa;我的钢铁网等实时爬取" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-21" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="外部价格库&#xa;我的钢铁网等实时爬取" vertex="1">
           <mxGeometry height="107" width="175" x="1819" y="1577" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-22" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" value="历史项目指纹库&#xa;报价/合同/结算" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-22" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="历史项目指纹库&#xa;报价/合同/结算" vertex="1">
           <mxGeometry height="101" width="128" x="2044" y="1580" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="外部系统集成&#xa;• 局内HR/财务/项目管理系统&#xa;• 建设通人员库&#xa;• 集团供应链系统" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#f9f7ed;strokeColor=#36393d;" value="外部系统集成&#xa;• 局内HR/财务/项目管理系统&#xa;• 建设通人员库&#xa;• 集团供应链系统" vertex="1">
           <mxGeometry height="150" width="260" x="1795" y="45" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="安全合规层&#xa;• 数据隔离（投标信息不外泄）&#xa;• 加密传输&#xa;• 权限RBAC + 审计日志" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#f9f7ed;strokeColor=#36393d;" value="安全合规层&#xa;• 数据隔离（投标信息不外泄）&#xa;• 加密传输&#xa;• 权限RBAC + 审计日志" vertex="1">
           <mxGeometry height="150" width="260" x="467" y="45" as="geometry" />
         </mxCell>
         <mxCell id="suS-wiGyDA5d7vcld8C9-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" value="所有服务" vertex="1">
@@ -347,7 +347,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="suS-wiGyDA5d7vcld8C9-60" edge="1" parent="1" source="suS-wiGyDA5d7vcld8C9-13" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.99;exitY=0;entryX=1;entryY=0.73;rounded=0;labelBackgroundColor=none;fontColor=default;" target="suS-wiGyDA5d7vcld8C9-11" value="产值核算→进度款→台账更新">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.023" y="-24" as="geometry">
+            <mxPoint y="-1" as="offset" />
             <Array as="points">
               <mxPoint x="2022" y="920" />
             </Array>
