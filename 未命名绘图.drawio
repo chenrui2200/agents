@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="29.6.4">
   <diagram name="第 1 页" id="8Qo2597eUU986CpPTHiY">
-    <mxGraphModel dx="2377" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="1678" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
         <mxCell id="suS-wiGyDA5d7vcld8C9-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="3. 合同管理服务&#xa;• 合同比对（Diff-Match-Patch）&#xa;• 风险条款提取（BiLSTM-CRF）&#xa;• 动态台账（ETL联邦查询）" vertex="1">
           <mxGeometry height="174" width="260" x="1378" y="673" as="geometry" />
         </mxCell>
-        <mxCell id="suS-wiGyDA5d7vcld8C9-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="4. 生产管理服务&#xa;• 规范问答（Milvus RAG）&#xa;• 图纸审计（CV）&#xa;• 危大方案计算（物理引擎+FSM）&#xa;• 机械调度（遗传算法+离散事件模拟）&#xa;• 日志摘要（多模态LLM）" vertex="1">
+        <mxCell id="suS-wiGyDA5d7vcld8C9-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="4. 生产管理服务&#xa;• 规范问答（Milvus RAG）&#xa;• 图纸审计（CV）&#xa;• 机械调度（遗传算法+离散事件模拟）" vertex="1">
           <mxGeometry height="222" width="260" x="830" y="969" as="geometry" />
         </mxCell>
         <mxCell id="suS-wiGyDA5d7vcld8C9-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#ffcc99;strokeColor=#36393d;" value="5. 分包与结算服务&#xa;• 发票去重（哈希+近似搜索）&#xa;• 定额对标（LLM语义映射）&#xa;• 产值自动核算（数据驱动计价）" vertex="1">
